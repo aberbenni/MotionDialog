@@ -31,7 +31,7 @@ Advanced cells include:
 
 **Check out a working sample app [here][Sample]!**
 
-[Sample]: https://github.com/aberbenni/MotionDialog/tree/master/Samples
+[Sample]: https://github.com/aberbenni/MotionDialog/tree/master/Sample
 
 Forking
 -------
