@@ -1,0 +1,26 @@
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project'
+
+Motion::Project::App.setup do |app|
+  # Use `rake config' to see complete project settings.
+  app.name = 'Sample'
+  app.identifier = "com.berbenni.Sample"
+  
+  app.frameworks += ['CoreAnimation'] #default to ['UIKit', 'Foundation', 'CoreGraphics']
+    
+  app.files += Dir.glob(File.join(app.project_dir, '../MotionDialog/**/*.rb'))
+  
+  app.files_dependencies 'app/app_delegate.rb' => './../MotionDialog/dialog_view_controller.rb'
+  app.files_dependencies './../MotionDialog/dialog_view_controller.rb' => './../MotionDialog/elements.rb'
+  app.files_dependencies './../MotionDialog/dialog_view_controller.rb' => './../MotionDialog/Utilities/controls.rb'
+  
+  app.files_dependencies 'app/app_delegate.rb' => './../MotionDialog/elements.rb'
+  
+  app.files_dependencies 'app/demo_editing.rb' => './../MotionDialog/dialog_view_controller.rb'
+  app.files_dependencies 'app/demo_editing_advanced.rb' => './../MotionDialog/dialog_view_controller.rb'
+
+  app.files_dependencies 'app/demo_index.rb' => './../MotionDialog/dialog_view_controller.rb'
+  
+  app.short_version = '0.1'
+
+end
