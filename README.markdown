@@ -1,7 +1,7 @@
-MonotionDialog
+MotionDialog
 ================
 
-MonotionDialog is a port of MonoTouch.Dialog to RubyMotion.
+MotionDialog is a port of MonoTouch.Dialog to RubyMotion.
 It is a foundation to create dialog boxes and show
 table-based information. Table support Pull-to-Refresh
 as well as built-in searching.
@@ -35,7 +35,7 @@ Advanced cells include:
 
 Forking
 -------
-Feel free to fork! And if you end up using MonotionDialog in your app, I'd love to hear about your experience.
+Feel free to fork! And if you end up using MotionDialog in your app, I'd love to hear about your experience.
 
 Bugs
 ----
