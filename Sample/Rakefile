@@ -13,12 +13,9 @@ Motion::Project::App.setup do |app|
   app.files_dependencies 'app/app_delegate.rb' => './../MotionDialog/dialog_view_controller.rb'
   app.files_dependencies './../MotionDialog/dialog_view_controller.rb' => './../MotionDialog/elements.rb'
   app.files_dependencies './../MotionDialog/dialog_view_controller.rb' => './../MotionDialog/Utilities/controls.rb'
-  
   app.files_dependencies 'app/app_delegate.rb' => './../MotionDialog/elements.rb'
-  
   app.files_dependencies 'app/demo_editing.rb' => './../MotionDialog/dialog_view_controller.rb'
   app.files_dependencies 'app/demo_editing_advanced.rb' => './../MotionDialog/dialog_view_controller.rb'
-
   app.files_dependencies 'app/demo_index.rb' => './../MotionDialog/dialog_view_controller.rb'
   
   app.short_version = '0.1'
