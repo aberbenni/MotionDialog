@@ -9,7 +9,7 @@
 # Code to support pull-to-refresh based on Martin Bowling's TweetTableView
 # which is based in turn in EGOTableViewPullRefresh code which was created
 # by Devin Doty and is Copyrighted 2009 enormego and released under the
-# MIT X11 license
+# MIT X11 license 
 
 module MotionDialog
 
