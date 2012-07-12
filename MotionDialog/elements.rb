@@ -1,5 +1,4 @@
-
-# Elements: defines the various components of our view
+# Elements: defines the various components of our view 
 #
 # Author:: Alessandro Berbenni (mailto:aberbenni@gmail.com)
 # Copyright:: Copyright (c) 2012 Alessandro Berbenni
