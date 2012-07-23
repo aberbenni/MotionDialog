@@ -27,4 +27,5 @@ module Sample
 		end
 		
 	end #class
+    
 end #module

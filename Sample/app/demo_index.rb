@@ -1,12 +1,12 @@
 
 # This sample shows how to present an index.
-#
+# 
 # This requires the user to create two subclasses for the
 # internal model used in DialogViewController and a new
 # subclass of DialogViewController that activates it.
-#
+# 
 # See the source in IndexedViewController
-#
+# 
 # The reason for Source and SourceSizing derived classes is
 # that MotionDialog will create one or the other based on
 # whether there are elements with uniform sizes or not.  This

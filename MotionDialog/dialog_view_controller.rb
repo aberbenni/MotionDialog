@@ -39,7 +39,7 @@ module MotionDialog
     	#def tableView
     	#	@tableView
     	#end
-    	#
+    	
     	#def tableView=(value)
     	#	if !value.nil? then
     	#		@tableView = value

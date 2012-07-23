@@ -1,3 +1,4 @@
+
 module Sample
 
 	class AppDelegate
@@ -108,5 +109,7 @@ module Sample
 								
 			dvc.activateController(np)
 		end
-	end
-end
+        
+	end #class
+
+end #module

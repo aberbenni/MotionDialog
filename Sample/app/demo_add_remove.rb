@@ -1,3 +1,4 @@
+
 module Sample
 
 	class AppDelegate

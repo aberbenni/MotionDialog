@@ -1,5 +1,6 @@
 
 module Sample
+    
 	class AppDelegate
 	
 		def demoHeadersFooters()
@@ -37,6 +38,7 @@ module Sample
 		end
 		
 	end #class
+
 end #module
 
 

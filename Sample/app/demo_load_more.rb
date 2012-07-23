@@ -57,4 +57,4 @@ class UINavigationController
 											 StringElement.new("Element #{loadMore.count + 1}" + (loadMore.count + 3))])
 	end
 		
-end
+end #class
