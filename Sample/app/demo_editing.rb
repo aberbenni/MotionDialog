@@ -2,7 +2,7 @@
 module Sample
 	# To support editing, you need to subclass the DialogViewController and provide
 	# your own "Source" classes (which you also have to subclass).
-	#
+	# 
 	# There are two source classes, a sizing one (for elements that have different
 	# sizes, and one for fixed element sizes.   Since we are just using strings,
 	# we are going to take a shortcut and just implement one of the sources.

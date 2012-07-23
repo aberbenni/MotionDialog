@@ -16,7 +16,7 @@ module Sample
 			end
 			
 			#backgroundImage = StyledStringElement.new("Image downloaded").tap do |e|
-			#	e.backgroundUri = "http://www.google.com/images/logos/ps_logo2.png"
+			#	e.backgroundUri = "http://www.google.com/images/logos/ps_logo2.png" 
 			#end
 			
 			localImage = StyledStringElement.new("Local image").tap do |e|

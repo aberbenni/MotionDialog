@@ -13,7 +13,7 @@ module Sample
 		  
 			last = Time.gm(2010,10,7)
 			
-			p = NSBundle.mainBundle.pathForResource("background", ofType:"png")
+			p = NSBundle.mainBundle.pathForResource("background", ofType:"png") #
 					
 			menu = RootElement.new("Demos").tap do |r|
 				r.add Section.new("Element API").tap{|s1|

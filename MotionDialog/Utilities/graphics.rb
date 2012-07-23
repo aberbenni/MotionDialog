@@ -1,3 +1,4 @@
+
 module MotionDialog
 
 	class GraphicsUtil

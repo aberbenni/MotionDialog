@@ -13,7 +13,6 @@ module MotionDialog
 			
 			@alignment = UITextAlignmentCenter
 			@animating = false
-			
 			@pad = 10
 			@isize = 20
 			
