@@ -45,7 +45,6 @@ Please report any bugs you find with our source at the
 
 Todo
 ----
-- Rubyfy with BubbleWrap and Metaprogramming
-- More Tests
-- More Elements
-- Create gem
+- Gemify
+- More Elements and samples
+- Rubyfication with BubbleWrap
